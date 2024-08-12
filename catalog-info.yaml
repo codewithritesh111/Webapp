@@ -24,8 +24,4 @@ spec:
       type: 'local'
       local:
         directory: './techdocs/demo-service'
-  catalog:
-    database:
-    type: mysql
-    url: mysql://root:##@Ri24042003@localhost:3306/backstage
 
