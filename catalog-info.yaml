@@ -17,4 +17,10 @@ spec:
   repository: https://github.com/codewithritesh111/Webapp
   location:
     type: url
-    target: https://github.com/your-org/demo-service/blob/main/catalog-info.yaml
+    target: https://github.com/codewithritesh111/Webapp/blob/main/catalog-info.yaml
+  techdocs:
+    builder: 'local'  # Use 'local' for local development or 'awsS3' for AWS S3
+    storage:
+      type: 'local'
+      local:
+        directory: './techdocs'
