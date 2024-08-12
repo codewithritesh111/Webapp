@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-service
+  description: A simple demo service to showcase Backstage integration.
+  owner: team-demo
+  tags:
+    - demo
+    - nodejs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-demo
+  system: demo-system
+  providesApis:
+    - demoApi
+  repository: https://github.com/codewithritesh111/Webapp
+  location:
+    type: url
+    target: https://github.com/your-org/demo-service/blob/main/catalog-info.yaml
