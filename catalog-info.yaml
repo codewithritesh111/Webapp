@@ -23,4 +23,4 @@ spec:
     storage:
       type: 'local'
       local:
-        directory: './techdocs'
+        directory: './techdocs/demo-service'
